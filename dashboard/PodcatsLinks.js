@@ -24,10 +24,10 @@ const people = [
 
 export default function Podcast() {
   return (
-    <div>
-      <h1 className="pb-4">Podcasts</h1>
+    <div className="pb-4">
+      <h1 className="">Podcasts</h1>
 
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 w-96 sm:w-96 md:w-full lg:w-full">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 w-96 sm:w-96 md:w-full lg:w-full p-4">
         {people.map((person) => (
           <div
             key={person.email}

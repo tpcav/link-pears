@@ -23,14 +23,14 @@ export default function Home() {
       </div>
 
       <div className='px-10 text-center'>
-        <p className='text-center italic mx-2 p-2 font-semibold text-lime-400 text-2xl rounded-full'>Stuff I like. <span className='text-lime-300'>On the internet.</span></p>
+        <p className='text-center italic mx-2 p-2 font-semibold text-gray-400 text-2xl rounded-full'>Stuff I like. <span className='text-gray-300'>On the internet.</span></p>
       </div>
       
       <main className={styles.main}>
-        <div className='mb-20'>
+        <div className='mb-10'>
+          <Podcast/>
           <People/>
           <Music/>
-          <Podcast/>
         </div>
       </main>
     </>
