@@ -18,10 +18,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='p-6'>
-        <h1 className='truncate text-2xl font-bold'>Linkpears 🍐 </h1>
-        <span className='truncate'> Thomas Cavalcante</span>
+        <h1 className='truncate text-2xl font-bold'>🍐Linkpears</h1>
+        <span className='truncate text-sm'> Thomas Cavalcante</span>
       </div>
-      <p className='text-center italic'>Stuff I like. On the internet.</p>
+
+      <div className='px-10 text-center'>
+        <p className='text-center italic mx-2 p-2 font-semibold text-lime-400 text-2xl rounded-full'>Stuff I like. <span className='text-lime-300'>On the internet.</span></p>
+      </div>
+      
       <main className={styles.main}>
         <div className='mb-20'>
           <People/>
