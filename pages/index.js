@@ -22,8 +22,8 @@ export default function Home() {
         <span className='truncate text-sm'> Thomas Cavalcante</span>
       </div>
 
-      <div className='px-10 text-center'>
-        <p className='text-center italic mx-2 p-2 font-semibold text-gray-400 text-2xl rounded-full'>Stuff I like. <span className='text-gray-300'>On the internet.</span></p>
+      <div className='px-10 p-6 text-center'>
+        <p className='text-center italic p-2 font-semibold text-gray-400 text-2xl rounded-full'>Stuff I like. <span className='text-gray-300'>On the internet.</span></p>
       </div>
       
       <main className={styles.main}>
