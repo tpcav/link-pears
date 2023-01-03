@@ -12,7 +12,7 @@ const people = [
     name: 'Zach Gage',
     email: 'leslie.alexander@example.com',
     role: 'Conceptual Artist, Indie Game Developer',
-    link: 'https://www.youtube.com/c/Waveform',
+    link: 'http://www.stfj.net/index2.php',
     linkName: 'Personal Website',
     imageUrl:
       'https://149362454.v2.pressablecdn.com/wp-content/uploads/2020/04/DaveM22_DaveM22-R1-E005-copy.jpg',
